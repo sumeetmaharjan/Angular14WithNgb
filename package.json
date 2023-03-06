@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --output-path dist",
     "build:dev": "ng build --configuration development --output-path dist-dev --output-hashing all --source-map false",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
